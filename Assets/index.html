@@ -5,9 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>Document</title>
+    <title>Chris Kang Portfolio</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Chris Kang Portfolio</h1>
+        <nav id="top"> 
+            <!-- css: align right, list-style:none, background color: -->
+            <ul>
+                <li><a href="#About Me">About Me</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#contact-me">Contact Info</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <!-- css: border-style: solid, border: right, border-color: darkblue -->
+        <h2>About Me</h2>
+        <h2>Work</h2>
+        <h2>Contact Info</h2>
+    </aside>
+    <main>
+        <section class="main-content" id="about-me">
+            <p>Welcome and thank you for visiting my portfolio! I appreciate the time you've taken to come see what I have to offer.</p>
+            <p>My name is Chris Kang and up until recently, I have spent my working years managing businesses and teaching. Now with a new career path and reinvigorated spirit, I am proud to present some of my code and what I can offer. Please reach out with the links below!
+            </p>
+        </section>
+        <container class="main-content" id="work">
+            <!-- set as flex, create grid 4 boxes + 1 larger image (all with a text box inside with different color background) -->
+            <!-- all divs must have background image and then a box within the box with name, aligned left:0, bottom meh: -->
+            <div id="highlighted">
+                <div id="">
+                    <h3>Project 1</h3>
+                    <!-- flex: 1 1 400px  -->
+                    <p>Description</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="project-name">
+                    <h3>Project 2</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="project-name">
+                    <h3>Project 3</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="project-name">
+                    <h3>Project 4</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="project-name">
+                    <h3>Project 5</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            
+
+        </container>
+    <footer>
+        <nav id="contact-me">
+            <!-- nav: display: flex; justify-content:center; li{display:inline}> -->
+            <ul>
+                <li><a href="mailto:kjman26@gmail.com">Send Email</a></li>
+                <li><a href="linkedin.com/in/christopherjbkang">LinkedIn</a></li>
+                <li><a href="https://github.com/kjman26">GitHub</a></li>
+            </ul>
+        </nav>
+    </footer>
+    </main>
 </body>
 </html>

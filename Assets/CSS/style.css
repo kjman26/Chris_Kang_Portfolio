@@ -1,0 +1,26 @@
+header {
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    background-color: darkslategray;
+    display: inline;
+    color: whitesmoke;
+    font-size: 36px;
+    margin-left: 15px;
+}
+
+#top{
+    font-size: 24px;
+    
+}
+
+li{
+    list-style: none;
+    display: inline;
+    justify-content: flex-end;
+    margin-left: 15px;
+    color: whitesmoke;
+}
