@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,11 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <title>Chris Kang Portfolio</title>
 </head>
+
 <body>
     <header>
         <h1>Chris Kang Portfolio</h1>
-        <nav id="top"> 
+        <nav id="top">
             <!-- css: align right, list-style:none, background color: -->
             <ul>
                 <li><a href="#About Me">About Me</a></li>
@@ -20,59 +22,56 @@
             </ul>
         </nav>
     </header>
-    <aside>
-        <!-- css: border-style: solid, border: right, border-color: darkblue -->
+
+
+    <div>
         <h2>About Me</h2>
-        <h2>Work</h2>
-        <h2>Contact Info</h2>
-    </aside>
-    <main>
         <section class="main-content" id="about-me">
-            <p>Welcome and thank you for visiting my portfolio! I appreciate the time you've taken to come see what I have to offer.</p>
-            <p>My name is Chris Kang and up until recently, I have spent my working years managing businesses and teaching. Now with a new career path and reinvigorated spirit, I am proud to present some of my code and what I can offer. Please reach out with the links below!
+            <p>Welcome and thank you for visiting my portfolio! I appreciate the time you've taken to come see what I
+                have to offer.</p>
+            <p>My name is Chris Kang and up until recently, I have spent my working years managing businesses and teaching. Now with a new career path and reinvigorated spirit, I am proud to present some of my code and what I could offer your team! Please reach out with the links below!
             </p>
         </section>
+    </div>
+    <!-- <h2>Work</h2>
+        <h2>Contact Info</h2>
+    </aside> -->
+    <aside id="cells">
         <container class="main-content" id="work">
             <!-- set as flex, create grid 4 boxes + 1 larger image (all with a text box inside with different color background) -->
             <!-- all divs must have background image and then a box within the box with name, aligned left:0, bottom meh: -->
             <div id="highlighted">
-                <div id="">
-                    <h3>Project 1</h3>
-                    <!-- flex: 1 1 400px  -->
-                    <p>Description</p>
+                <h3>Project 2 <br> Description</h3>
+            </div>
+            </div>
+
+            <div class="grid">
+                <div class="project-name">
+                    <h3>Project 2 <br> Description</h3>
+                    <!-- <p>Description</p> -->
                 </div>
             </div>
 
             <div class="grid">
                 <div class="project-name">
-                    <h3>Project 2</h3>
-                    <p>Description</p>
+                    <h3>Project 2 <br> Description</h3>
                 </div>
             </div>
 
             <div class="grid">
                 <div class="project-name">
-                    <h3>Project 3</h3>
-                    <p>Description</p>
+                    <h3>Project 2 <br> Description</h3>
                 </div>
             </div>
 
             <div class="grid">
                 <div class="project-name">
-                    <h3>Project 4</h3>
-                    <p>Description</p>
+                    <h3>Project 2 <br> Description</h3>
                 </div>
             </div>
 
-            <div class="grid">
-                <div class="project-name">
-                    <h3>Project 5</h3>
-                    <p>Description</p>
-                </div>
-            </div>
-            
+    </aside>
 
-        </container>
     <footer>
         <nav id="contact-me">
             <!-- nav: display: flex; justify-content:center; li{display:inline}> -->
@@ -85,4 +84,5 @@
     </footer>
     </main>
 </body>
+
 </html>

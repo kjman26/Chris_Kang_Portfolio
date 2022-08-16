@@ -1,15 +1,24 @@
+body{
+    display: flexbox;
+}
+
 header {
     background-color: darkblue;
     display: flex;
     justify-content: space-between;
+    line-height: 50px;
+    border: solid rgb(17, 188, 235) 6px;
+    padding: 9px;
+    
 }
 
 h1{
-    background-color: darkslategray;
+    background-color: rgb(17, 188, 235);
     display: inline;
     color: whitesmoke;
     font-size: 36px;
     margin-left: 15px;
+    border-radius: 20px;
 }
 
 #top{
@@ -22,5 +31,50 @@ li{
     display: inline;
     justify-content: flex-end;
     margin-left: 15px;
-    color: whitesmoke;
+    color: rgb(10, 246, 14);;
+}
+
+aside{
+    display: block;
+    max-width: 150px;
+    display: inline-block;
+}
+
+h2{
+    border-right: solid rgb(17, 188, 235);
+}
+
+#about-me{
+    margin-left: 25px;
+    /* font-family: sans-serif;??? */
+}
+div {
+    display: inline-flex;
+}
+/* #about-me{
+    
+} */
+/* .main-content{
+    
+} */
+
+#highlighted{
+    border: solid rgb(17, 188, 235);
+    height: 350px;
+    width: 650px;
+}
+
+.grid{
+    border: solid rgb(17, 188, 235);
+    height: 150px;
+    width: 300px;
+}
+
+.project-name{
+    line-height: 13px;
+    border:solid rgb(10, 246, 14);
+}
+
+#cells{
+    display: flex;
 }
