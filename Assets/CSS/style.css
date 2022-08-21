@@ -1,3 +1,6 @@
+*{
+    background-color: gray;
+}
 body{
     display: flexbox;
 }
@@ -18,45 +21,66 @@ h1{
     color: whitesmoke;
     font-size: 36px;
     margin-left: 15px;
-    border-radius: 20px;
+    border-radius: 12px;
 }
 
 #top{
     font-size: 24px;
+    display: flex;
+
     
 }
 
-li{
-    list-style: none;
-    display: inline;
-    justify-content: flex-end;
-    margin-left: 15px;
-    color: rgb(10, 246, 14);;
+#top ul{
+   display: flex;
+   list-style: none;
 }
 
-aside{
-    display: block;
-    max-width: 150px;
-    display: inline-block;
+#top ul .nav{
+    margin-left: 20px;
+}
+
+#header{
+    display: inline;
+    
+}
+
+.header{
+    display: inline;
+}
+#cells{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 h2{
     border-right: solid rgb(17, 188, 235);
+    font-size: 28px;
+    min-width: 145px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
-#about-me{
+.main-content{
     margin-left: 25px;
     /* font-family: sans-serif;??? */
 }
 div {
     display: inline-flex;
 }
-/* #about-me{
-    
-} */
-/* .main-content{
-    
-} */
+
+p{
+   display: inline;
+   border: solid green;
+
+   
+}
 
 #highlighted{
     border: solid rgb(17, 188, 235);
@@ -70,11 +94,25 @@ div {
     width: 300px;
 }
 
-.project-name{
-    line-height: 13px;
-    border:solid rgb(10, 246, 14);
+#cells{
+    display: inline;
+    margin-left: 25px;
+    }
+
+footer{
+    display: flex;
+    width: 100%;
 }
 
-#cells{
-    display: flex;
+#bottom-nav{
+    font-size: 25px;
+    margin-left: 29%;
+}
+
+.contact{
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+   
+
 }

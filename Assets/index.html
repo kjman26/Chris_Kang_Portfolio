@@ -9,16 +9,15 @@
     <title>Chris Kang Portfolio</title>
 </head>
 
-<body>
+<body>  
     <header>
         <h1>Chris Kang Portfolio</h1>
         <nav id="top">
-            <!-- css: align right, list-style:none, background color: -->
             <ul>
-                <li><a href="#About Me">About Me</a></li>
-                <li><a href="#Work">Work</a></li>
-                <li><a href="#contact-me">Contact Info</a></li>
-                <li><a href="#">Resume</a></li>
+                <li class="nav"><a href="#About Me">About Me</a></li>
+                <li class="nav"><a href="#Work">Work</a></li>
+                <li class="nav"><a href="#contact-me">Contact Info</a></li>
+                <li class="nav"></li><a href="#">Resume</a></li>
             </ul>
         </nav>
     </header>
@@ -26,59 +25,57 @@
 
     <div>
         <h2>About Me</h2>
-        <section class="main-content" id="about-me">
+        <section class="main-content">
             <p>Welcome and thank you for visiting my portfolio! I appreciate the time you've taken to come see what I
                 have to offer.</p>
             <p>My name is Chris Kang and up until recently, I have spent my working years managing businesses and teaching. Now with a new career path and reinvigorated spirit, I am proud to present some of my code and what I could offer your team! Please reach out with the links below!
             </p>
         </section>
     </div>
-    <!-- <h2>Work</h2>
-        <h2>Contact Info</h2>
-    </aside> -->
+    
     <aside id="cells">
-        <container class="main-content" id="work">
-            <!-- set as flex, create grid 4 boxes + 1 larger image (all with a text box inside with different color background) -->
-            <!-- all divs must have background image and then a box within the box with name, aligned left:0, bottom meh: -->
-            <div id="highlighted">
-                <h3>Project 2 <br> Description</h3>
-            </div>
-            </div>
+        
+        <h2>Work</h2>  
 
+        <div id="highlighted">        
+           <p>Project 2 <br> Description</p>
+        </div>
+
+        <container>
             <div class="grid">
                 <div class="project-name">
-                    <h3>Project 2 <br> Description</h3>
-                    <!-- <p>Description</p> -->
+                    <p>Project 2 <br> Description</p>
                 </div>
             </div>
 
             <div class="grid">
                 <div class="project-name">
-                    <h3>Project 2 <br> Description</h3>
+                    <p>Project 2 <br> Description</p>
                 </div>
             </div>
 
             <div class="grid">
                 <div class="project-name">
-                    <h3>Project 2 <br> Description</h3>
+                    <p>Project 2 <br> Description</p>
                 </div>
             </div>
 
             <div class="grid">
                 <div class="project-name">
-                    <h3>Project 2 <br> Description</h3>
+                    <p>Project 2 <br> Description</p>
                 </div>
             </div>
-
+        </container>
     </aside>
 
-    <footer>
-        <nav id="contact-me">
-            <!-- nav: display: flex; justify-content:center; li{display:inline}> -->
+    <footer> 
+        <h2>Contact Info</h2>
+<!-- contact info with active links and easy email -->
+        <nav id="bottom-nav">
             <ul>
-                <li><a href="mailto:kjman26@gmail.com">Send Email</a></li>
-                <li><a href="linkedin.com/in/christopherjbkang">LinkedIn</a></li>
-                <li><a href="https://github.com/kjman26">GitHub</a></li>
+                <li class="contact"><a href="mailto:kjman26@gmail.com">Send Email</a></li>
+                <li class="contact"><a href="linkedin.com/in/christopherjbkang">LinkedIn</a></li>
+                <li class="contact"><a href="https://github.com/kjman26">GitHub</a></li>
             </ul>
         </nav>
     </footer>
