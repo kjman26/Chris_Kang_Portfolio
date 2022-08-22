@@ -1,6 +1,7 @@
 *{
     background-color: gray;
     border-radius: 10px;
+    font-family: sans-serif;
 }
 
 body{
@@ -23,6 +24,7 @@ h1{
     color: whitesmoke;
     font-size: 36px;
     margin-left: 10px;
+   
 }
 
 #top{
@@ -62,6 +64,7 @@ aside{
     flex-wrap: wrap;
     width: 18%;
     position: absolute;
+    text-align: center;
 }
 
 h2{
@@ -69,26 +72,28 @@ h2{
     color: whitesmoke;
     border-right: solid rgb(17, 188, 235);
     border-radius: none;
-    width: 85%;
+    width: 95%;
 }
 
 #about-me{
     line-height: 225px;
+    
 }
 
 #side-work{
-  line-height: 600px;
+  line-height: 675px;
 }
 
-.one{
-    display: flex;
-    align-items: center;
+#contact-me{
+    line-height: 100px;
 }
 
 .intro{
     display: inline-flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    padding: 20px;
 }
 
 
@@ -99,18 +104,64 @@ h3{
 
 .bio{
     text-align: start;
-    text-indent: 20px;
-    width: 68%;
+    text-indent: 30px;
     display: inline-flex;
+    line-height: 25px;
+    margin-top: -15px;
 }
 
-/* #cells{
+#cells{
     display: flex;
-    width: 100%;
-    padding: 5px;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-evenly;
+    height: 650px;
+    width: 60%;
+    height: fit-content;
+    margin-left: 30%;
+    
 }
+
+.cells:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: salmon;
+}
+
+#highlighted{
+    height: 300px;
+    width: 110%;
+}
+
+.project-titles{
+    border: solid;
+    display: inline-flex;
+    padding: 5px;
+    background-color: aqua;
+    color: darkblue;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+}
+
+section{
+    background-image: url("");
+    border: solid darkblue 5px;
+    width: 43%;
+    height: 125px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 2.5%;
+}
+
+section:hover{
+   border-radius: 20px; transition: all 0.5s ease-in-out;
+   border-color: aqua;
+}
+
 
 h2{
     border-right: solid rgb(17, 188, 235);
@@ -123,57 +174,36 @@ h2{
     position: relative;
 }
 
-.main-content{
-    margin-left: 25px;
-    /* font-family: sans-serif;??? */
-}
-/* div {
-    display: inline-flex;
-}
 
-
-#highlighted{
-    border: solid rgb(17, 188, 235);
-    height: 350px;
-    width: 650px;
-}
-
-.grid{
-    border: solid rgb(17, 188, 235);
-    height: 150px;
-    width: 300px;
-}
-
-#cells{
-    display: inline;
-    margin-left: 25px;
-    }
-
-.cells h2{
-        border-radius: 8px; transition: all 0.5s ease-in-out}
-    
-.cells:hover{ 
-        box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
-    }
-    
-.cells{
-        background-image: linear-gradient( 
-        rgba(232, 102, 236, 0.3) 0%, 
-        rgba (232, 102, 236, 0.6) 100% ); 
-    }
 
 footer{
+    margin: 55px 0px 0px 80px;
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
 #bottom-nav{
     font-size: 25px;
-    margin-left: 29%;
+    margin-left: 35%;
 }
 
 .contact{
     list-style: none;
     display: inline;
-    margin-left: 15px;
+    margin: 0px 35px;
+}
+
+.contact:hover{
+    cursor: pointer;
+}
+
+h4{
+    margin-top: 25px;
+    margin-left: 50%;
+}
+
+li:hover{
+    font-size: xx-large;
+    text-transform: uppercase;
 }
