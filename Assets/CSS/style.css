@@ -1,6 +1,8 @@
 *{
     background-color: gray;
+    border-radius: 10px;
 }
+
 body{
     display: flexbox;
 }
@@ -10,45 +12,99 @@ header {
     display: flex;
     justify-content: space-between;
     line-height: 50px;
-    border: solid rgb(17, 188, 235) 6px;
+    border: solid skyblue 6px;
     padding: 9px;
     
 }
 
 h1{
-    background-color: rgb(17, 188, 235);
+    background-color:rgb(17, 188, 235) ;
     display: inline;
     color: whitesmoke;
     font-size: 36px;
-    margin-left: 15px;
-    border-radius: 12px;
+    margin-left: 10px;
 }
 
 #top{
-    font-size: 24px;
-    display: flex;
-
-    
+    font-size: 28px;
+    display: contents;
 }
 
 #top ul{
    display: flex;
    list-style: none;
+    background-color: rgb(17, 188, 235);
 }
 
-#top ul .nav{
+#top ul .top-nav{
     margin-left: 20px;
+    background-color: rgb(17, 188, 235);
 }
 
-#header{
-    display: inline;
+#top a{
+    background-color: rgb(17, 188, 235);
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#top ul:hover {
+    cursor:grab;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 18%;
+    position: absolute;
+}
+
+h2{
+    display: flex;
+    color: whitesmoke;
+    border-right: solid rgb(17, 188, 235);
+    border-radius: none;
+    width: 85%;
+}
+
+#about-me{
+    line-height: 225px;
+}
+
+#side-work{
+  line-height: 600px;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+}
+
+.intro{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+
+h3{
+    text-align: center;
     
 }
 
-.header{
-    display: inline;
+.bio{
+    text-align: start;
+    text-indent: 20px;
+    width: 68%;
+    display: inline-flex;
 }
-#cells{
+
+/* #cells{
     display: flex;
     width: 100%;
     padding: 5px;
@@ -71,16 +127,10 @@ h2{
     margin-left: 25px;
     /* font-family: sans-serif;??? */
 }
-div {
+/* div {
     display: inline-flex;
 }
 
-p{
-   display: inline;
-   border: solid green;
-
-   
-}
 
 #highlighted{
     border: solid rgb(17, 188, 235);
@@ -99,6 +149,19 @@ p{
     margin-left: 25px;
     }
 
+.cells h2{
+        border-radius: 8px; transition: all 0.5s ease-in-out}
+    
+.cells:hover{ 
+        box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+    }
+    
+.cells{
+        background-image: linear-gradient( 
+        rgba(232, 102, 236, 0.3) 0%, 
+        rgba (232, 102, 236, 0.6) 100% ); 
+    }
+
 footer{
     display: flex;
     width: 100%;
@@ -113,6 +176,4 @@ footer{
     list-style: none;
     display: inline;
     margin-left: 15px;
-   
-
 }
