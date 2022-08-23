@@ -1,10 +1,10 @@
-*{
+* {
     background-color: slategray;
     border-radius: 10px;
     font-family: sans-serif;
 }
 
-body{
+body {
     display: flexbox;
 }
 
@@ -14,65 +14,65 @@ header {
     display: flex;
     justify-content: space-between;
     line-height: 50px;
-    border: solid skyblue 6px;
+    border: solid aqua 6px;
     padding: 9px;
-    
+
 }
 
-h1{
+h1 {
     color: whitesmoke;
     font-size: 36px;
     background-color: darkblue;
     margin-top: 50px;
-   
-   
+
+
 }
 
-#top{
+#top {
     font-size: 28px;
     display: contents;
 }
 
-#top ul{
-   display: flex;
-   list-style: none;
+#top ul {
+    display: flex;
+    list-style: none;
     background-color: darkblue;
     line-height: 10px;
 }
 
-#top ul .top-nav{
+#top ul .top-nav {
     margin-left: 20px;
-    background-color:darkblue;
+    background-color: darkblue;
     margin-top: 10%;
 }
 
-#top a{
+#top a {
     background-color: darkblue;
     text-decoration: none;
     color: whitesmoke;
-    
+
 }
 
 #top ul:hover {
-    cursor:grab;
+    cursor: grab;
 }
 
 /* headshot */
-#headshot{
-   background-image: url("https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667__480.jpg");
-   
+#headshot {
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667__480.jpg");
+
 }
 
 /* hero banner */
-.hero-image{
+.hero-image {
     height: 400px;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-image: url("https://digital.ihg.com/is/image/ihg/kimpton-seattle-7786144805-16x9");
     background-size: cover;
 }
 
-#hero-text{
+#hero-text {
     font-size: 38px;
     font-weight: bolder;
     color: whitesmoke;
@@ -83,12 +83,13 @@ h1{
     background: none;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
 }
+
 /* section titles */
-aside{
+aside {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -97,7 +98,7 @@ aside{
     text-align: center;
 }
 
-h2{
+h2 {
     display: flex;
     color: whitesmoke;
     border-right: solid rgb(17, 188, 235);
@@ -105,20 +106,20 @@ h2{
     width: 95%;
 }
 
-#about-me{
+#about-me {
     line-height: 225px;
-    
+
 }
 
-#side-work{
-  line-height: 675px;
+#side-work {
+    line-height: 675px;
 }
 
-#contact-me{
+#contact-me {
     line-height: 100px;
 }
 
-.intro{
+.intro {
     display: inline-flex;
     flex-direction: column;
     margin-left: 20%;
@@ -127,12 +128,12 @@ h2{
 }
 
 
-h3{
+h3 {
     text-align: center;
-    
+
 }
 
-.bio{
+.bio {
     text-align: start;
     text-indent: 30px;
     display: inline-flex;
@@ -141,7 +142,7 @@ h3{
 }
 
 /* work section */
-#cells{
+#cells {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
@@ -150,41 +151,41 @@ h3{
     width: 60%;
     height: fit-content;
     margin-left: 30%;
-    
+
 }
 
-.cells:hover{
+.cells:hover {
     cursor: pointer;
     color: whitesmoke;
     background-color: salmon;
 }
 
-#highlighted{
+#highlighted {
     height: 300px;
     width: 110%;
 }
 
 /* titles within the cells */
-.project-titles{
+.project-titles {
     border: solid;
     display: inline-flex;
     padding: 5px;
-    background-color: aqua;
-    color: darkblue;
+    background-color: darkblue;
+    color: white;
 }
 
-.project-titles:hover{
-    background-color: darkblue;
+.project-titles:hover {
+    background-color: salmon;
     color: whitesmoke;
 }
 
-a{
+a {
     text-decoration: none;
     display: inline;
     background: none;
 }
 
-section{
+section {
     background-image: url("");
     border: solid whitesmoke 5px;
     width: 43%;
@@ -197,13 +198,14 @@ section{
 }
 
 /* each section changes border color in 0.5s when hovered */
-section:hover{
-   border-radius: 20px; transition: all 0.5s ease-in-out;
-   border-color: aqua;
+section:hover {
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    border-color: aqua;
 }
 
 
-h2{
+h2 {
     border-right: solid rgb(17, 188, 235);
     font-size: 28px;
     min-width: 145px;
@@ -216,38 +218,178 @@ h2{
 
 
 /* footer contact info with nav and bottom title */
-footer{
+footer {
     margin: 70px 0px 0px 15px;
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-#bottom-nav{
+#bottom-nav {
     font-size: 25px;
     margin-left: 35%;
 }
 
-.contact{
+.contact {
     list-style: none;
     display: inline;
     margin: 0px 35px;
 }
 
-.contact:hover{
+.contact:hover {
     cursor: pointer;
 }
 
-h4{
+h4 {
     margin-top: 25px;
     margin-left: 50%;
 }
 
-li:hover{
+li:hover {
     font-size: xx-large;
     text-transform: uppercase;
 }
 
-@media screen and{
+/* resizing */
+@media screen and (max-width: 1000px) {
+    header {
+        text-align: center;
+    }
 
+    #top {
+        flex-direction: column;
+
+    }
+
+    #top ul {
+        flex-direction: column;
+        
+    }    
+    
+    #top li {
+        margin: 0.5px 0;
+    }    
+    
+    .cells {
+        flex-direction: column;
+        flex: 0 1 auto;
+    }
+
+    .hero-image{
+        flex: 0 1 auto;
+    }
+
+    #hero-text{
+        font-size: 24px;
+    }
+
+    aside{
+        flex: 0 1 auto;
+    }
+
+    h2{
+        flex: 0 1 auto;
+    }
+    section {
+        flex-direction: column;
+        flex: 0 1 auto;
+    }
+
+    footer {
+        text-align: center;
+    }    
+
+    #bottom-nav {
+        flex-direction: column;
+
+    }    
+
+    #bottom-nav ul{
+        flex-direction: column;
+
+    }    
+
+    #bottom-nav ul .contact {
+        margin: 0.5px 0;
+    }    
+
+}
+
+@media screen and (max-width: 875px) {
+    header {
+        text-align: center;
+    }
+
+    #top {
+        flex-direction: column;
+        line-height: 150%;
+
+    }
+
+    .top-nav{
+        align-items: center;
+    }
+
+    #top ul {
+        flex-direction: column;
+
+    }
+
+    aside{
+      width: min-content;  
+    }
+
+    h2{
+        font-size: 14px;
+        min-width: min-content;
+    }
+
+    .cells {
+        flex-direction: column;
+    }
+
+    .hero-image{
+        flex: 0 1 auto;
+    }
+
+    #hero-text{
+        font-size: 14px;
+    }
+
+    section {
+        padding: 0;
+    }
+
+    .cells {
+        flex-direction: column;
+        flex: 0 1 auto;
+    }
+
+    section {
+        flex-direction: column;
+        flex: 0 1 auto;
+    }
+
+    footer{
+        align-items: center;
+    }
+
+    #bottom-nav {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #bottom-nav ul{
+        flex-direction: column;
+
+    }
+
+    #bottom-nav ul .contact a {
+        margin: 0.5px 0;
+    }
+
+    h4{
+        align-self: center;
+        margin: 0;
+    }
 }
