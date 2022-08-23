@@ -1,6 +1,6 @@
 # Chris_Kang_Portfolio
 
-[Click to Visit!]("")
+[Click to Visit!](https://kjman26.github.io/Chris_Kang_Portfolio/)
 
 ![Screenshot](Assets\Images\screenshot_portfolio.jpg?)
 
