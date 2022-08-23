@@ -1,8 +1,8 @@
 # Chris_Kang_Portfolio
 
-[GitHub Address]("")
+[Click to Visit!]("")
 
-![Screenshot]("")
+![Screenshot](Assets\Images\screenshot_portfolio.jpg?)
 
 Motivation and Purpose: The goal of this challenge is to create an interactive profile to showcase myself and my work portfolios.
 
