@@ -250,7 +250,7 @@ li:hover {
     text-transform: uppercase;
 }
 
-/* resizing */
+/* shrink for tablet */
 @media screen and (max-width: 1000px) {
     header {
         text-align: center;
@@ -315,9 +315,11 @@ li:hover {
 
 }
 
+/* shrink for generic phone size */
 @media screen and (max-width: 875px) {
     header {
         text-align: center;
+        flex-wrap: wrap;
     }
 
     #top {
@@ -332,7 +334,8 @@ li:hover {
 
     #top ul {
         flex-direction: column;
-
+        line-height: 30px;
+        viewport-fit: 40%;
     }
 
     aside{
