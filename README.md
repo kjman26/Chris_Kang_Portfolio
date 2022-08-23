@@ -1,8 +1,10 @@
 # Chris_Kang_Portfolio
 
-[Click to Visit!]()
+[Click to Visit!](https://kjman26.github.io/Chris_Kang_Portfolio/)
 
 ![Screenshot](Assets\Images\screenshot_portfolio.jpg?)
+
+Description: This website is an ode to my growing developer skills. It showcases my work (more to be added later) to other developers and most importantly, potential employers. This website is essentially my coding resume, so look forward to many new updates!
 
 Motivation and Purpose: The goal of this challenge is to create an interactive profile to showcase myself and my work portfolios.
 
@@ -18,10 +20,7 @@ What I have learned:
     5. how to correctly order and tag HTML such that it ligns up with CSS
     6. 
 
-What makes my project standout is:
-    1. It is ME and there is only one ME!
-    2. The use of different background images
-    3. My personal info
+What makes my project standout is: ME as there is only one me and it displays the ability to proficiently use css and html!
 
 Usage: 
     1. hover over individual boxes to highlight
